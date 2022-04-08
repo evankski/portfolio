@@ -18,7 +18,7 @@ export async function getStaticProps(){
     // these props are available to us in the component
     return {
         props: {
-            data ,
+            data
         }
     }
 }
