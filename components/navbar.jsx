@@ -12,6 +12,10 @@ export default function Navbar() {
       <Link href='/about'>
         About Me
       </Link>
+
+      <Link href='/projects'>
+        Projects
+      </Link> 
     </nav>
   )
 }

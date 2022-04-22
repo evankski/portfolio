@@ -1,17 +1,37 @@
 /* this file is applied to all pages/components */
 html,
 body {
+  text-align: center;
+  /* background-color: aquamarine; */
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: white;
+    background-color: #013A6B;
+
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  padding: .3rem;
+  color: white;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem
 }
 
 * {
   box-sizing: border-box;
+}
+
+.main {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+}
+.social {
+  
 }

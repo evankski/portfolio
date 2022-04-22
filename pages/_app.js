@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 function MyApp({ Component, pageProps }) {
   return (
     <>
+    <div className='main'>
       <Navbar />
 
       <main>
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
       <footer>
         © Evan {new Date().getFullYear()}
       </footer>
+    </div>
     </>
   )
 }
