@@ -1,13 +1,18 @@
 import '../styles/globals.css'
 import Navbar from '../components/navbar'
+import About from './about'
+import Skills from './skills'
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
     <div className='main'>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <main>
          <Component {...pageProps} />
+         <About />
+         <Skills />
       </main>
 
       <footer>
