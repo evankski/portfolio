@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Navbar from '../components/navbar'
 import About from './about'
 import Skills from './skills'
+import Projects from './projects'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
          <Component {...pageProps} />
          <About />
          <Skills />
+         <Projects />
       </main>
 
       <footer>
