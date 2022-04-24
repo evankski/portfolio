@@ -74,7 +74,48 @@ nav {
   grid-template-columns: auto auto auto;
 }
 
-.all-projects {
-  display: grid;
-  grid-template-columns: auto auto auto;
+/* .all-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  /* height: 23.1vw; */
+/* } */
+
+.project-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem 5rem 2rem;
+}
+
+.bussin-bagels{
+  padding-left: 4rem;
+  /* padding-right: 6rem; */
+  /* display: flex; */
+}
+
+.fillow{
+  padding-right: 4rem;
+}
+
+.fillow p {
+  margin-bottom: 2.5rem;
+}
+
+.project-link {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  /* margin: 1rem; */
+}
+
+.project-link:hover{
+  color:black;
+  background-color: white;
+}
+
+.bussin-bagels p {
+  margin-bottom: 2.5rem;
 }
