@@ -14,13 +14,14 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project-1">
+                <img src="https://i.imgur.com/OHEfRY5.png" alt="A picture example of fillow" width={'40%'} style={{borderRadius: 100/ 2}} />
                     <div className="fillow">
                         <h1>Fillow</h1>
                         <p>Utilizing Node.js, Express.js, PostgreSQL, and the Mapbox API, I was able to create Fillow! Fillow is a take on Zillow, with CRUD function that allows you to upload your own listings. Communicating with the database, there is the option to favorite a listing, and comment on any listing. User authentication allows comments and listings to be significant to the user who created it, only allowing them to edit or delete.</p>
                         <a target="_blank" rel="noreferrer" href="https://github.com/evankski/fillow" className="project-link">GitHub</a>
                         <a target="_blank" rel="noreferrer" href="https://fillow.herokuapp.com/" className="project-link">Delpoyed</a>
                     </div>
-                    <img src="https://i.imgur.com/OHEfRY5.png" alt="A picture example of fillow" width={'40%'} style={{borderRadius: 100/ 2}}/>
+                    
                 </div>
                 <div className="project-1">
                     <img src="https://i.imgur.com/SKfVEP0.png" alt="A picture example of A day in the life" width={'40%'} style={{borderRadius: 100/ 2}}/>

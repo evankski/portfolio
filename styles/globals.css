@@ -89,6 +89,13 @@ nav {
   justify-content: center;
   padding: 4rem 2rem 5rem 2rem;
 }
+.project-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem 5rem 2rem;
+}
 
 .bussin-bagels{
   padding-left: 4rem;
@@ -118,4 +125,59 @@ nav {
 
 .bussin-bagels p {
   margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+  /* background-color: #013A6B; */
+  background-image: -webkit-linear-gradient(15deg, #013A6B 50%, #004E95 50%);
+    /* background-image: none; */
+}
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  .about-paragraph {
+    padding: 2rem 0rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }  
+  .about-pic {
+    width: 100%;
+  }
+  .project-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem 5rem 2rem;
+  }
+  .project-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem 5rem 2rem;
+  }
+  .bussin-bagels{
+    padding-left: 0rem;
+    /* padding-right: 6rem; */
+    /* display: flex; */
+  }
+  .project-1 img {
+    width: 100%;
+  }
+  .project-2 img {
+    width: 100%;
+    /* position: relative; */
+    padding-top: 6rem;
+  }
+  .fillow{
+    padding-right: 0rem;
+  }
+  
+  .fillow p {
+    margin-bottom: 2.5rem;
+  }
 }
