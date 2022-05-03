@@ -194,3 +194,27 @@ background-size: 300% 300%;
   background-color: white;
   border: 1.3px solid white;
 }
+.inputGroup {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.inputLabel {
+  text-align: left;
+}
+.inputField {
+  height: 30px;
+}
+.main {
+  /* padding: 5rem 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 10rem 0;
+}

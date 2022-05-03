@@ -12,19 +12,20 @@ export default function Home() {
       <Head>
         <title>Evan Karwowski Portfolio</title>
         <meta name="description" content="Portfolio website created by Evan Karwowski" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/person.png" />
       </Head>
       <Navbar />
       <main>
         <About />
-        <div id='skills'>
-          <Skills />
+        <div id='about'>
+          <Me />
         </div>
+        
         <div id='projects'>
           <Projects />
         </div>
-        <div id='about'>
-          <Me />
+        <div id='skills'>
+          <Skills />
         </div>
         <div id='contact'>
           <Contact />
