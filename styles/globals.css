@@ -218,3 +218,28 @@ background-size: 300% 300%;
 .container {
   padding: 10rem 0;
 }
+
+.submit {
+  color: #10d6dd;
+  /* color: #00ff48; */
+  border: 1.3px solid #10d6dd;
+  /* border: 1.3px solid #00ff48; */
+  padding: 0.6rem;
+}
+.submit:hover {
+  /* color: white; */
+  /* color: #00ff48; */
+  /* border: 1.3px solid #10d6dd; */
+  /* border: 1.3px solid #00ff48; */
+  /* background-color: #10d6dd; */
+  /* padding: 0.6rem; */
+}
+
+.submit:focus {
+  color: white;
+  /* color: #00ff48; */
+  border: 1.3px solid #10d6dd;
+  /* border: 1.3px solid #00ff48; */
+  background-color: #10d6dd;
+  padding: 0.6rem;
+}
