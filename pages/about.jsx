@@ -8,8 +8,8 @@ function About() {
 
     return ( 
         <div className="about" >
-            <h1 className="animate__animated animate__fadeInDown">Hi, I'm <span className="evan">Evan.</span></h1>
-            <h1 className="animate__animated animate__fadeInDown">I'm a full stack developer.</h1>
+            <h1 className="animate__animated animate__fadeInDown">Hi, I&apos;m <span className="evan">Evan.</span></h1>
+            <h1 className="animate__animated animate__fadeInDown">I&apos;m a full stack developer.</h1>
             <div className="about-links animate__animated animate__fadeInLeft">
                 <a
                     href="#skills"
