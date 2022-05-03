@@ -1,5 +1,6 @@
 /* this file is applied to all pages/components */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu&display=swap');
 html,
 body {
   /* text-align: center; */
@@ -10,7 +11,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: black;
     /* background-color: #013A6B; */
-
+    scroll-behavior: smooth;
 }
 
 a {
@@ -21,29 +22,175 @@ a {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 1rem
+background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        #15b5e1 0%, 
+        #16dfe6 25%, 
+        #02aab0 51%, 
+        #11ce72 100%
+  );  
+  animation: AnimateBG 20s ease infinite;;
+  padding: 1rem;
+  text-align: end;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;;
 }
 
+/* .about {
+  font-size: 1.7rem;
+  padding: 43vh 20vw;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-size: 300% 300%; */
+  /* background-image: linear-gradient( */
+        /* -45deg,  */
+        /* #ffffff 0%,  */
+        /* #16dfe6 25%,  */
+        /* #02aab0 51%,  */
+        /* #11ce72 100% */
+  /* );   */
+  /* animation: AnimateBG 20s ease infinite; */
+/* } */
+
 .about {
-  padding: 40vh 20vw;
+  font-size: 1.7rem;
+  padding: 30vh 20vw;
+  padding-bottom: 40vw;
+  width: 100%;
+  /* height: 100vh; */
+  color: rgb(48, 46, 46);
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        #ffffff 0%, 
+        #16dfe6 25%, 
+        #02aab0 51%, 
+        #11ce72 100%
+  );  
+  animation: AnimateBG 20s ease infinite; */
+} 
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 .evan {
-  color: rgb(11, 177, 218);
+  color: #10d6dd;
+  /* color: #00ff48; */
 }
 
 .resume {
-  color: rgb(11, 177, 218);
-  border: 1.3px solid rgb(11, 177, 218);
+  color: #10d6dd;
+  /* color: #00ff48; */
+  border: 1.3px solid #10d6dd;
+  /* border: 1.3px solid #00ff48; */
 }
 
 .resume:hover {
   color: white;
-  background-color: rgb(11, 177, 218);;
+  background-color: #10d6dd;
+  border: 1.3px solid white;
+}
+
+.skills {
+  /* background-color: rgb(11, 177, 218); */
+  align-items: center;
+  text-align: center;
+  /* background-color: white; */
+  /* background-image: linear-gradient(135deg,#02aab0,#00cdac); */
+  -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  display: grid;
+  grid-area: 4/1/6/1;
+  grid-template-columns: repeat(3,auto);
+  grid-column-gap:0 ;
+  grid-row-gap: 0;
+  grid-template-rows: repeat(4,auto);
+  padding: 7vh 0vh 12vh;
+   background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        #15b5e1 0%, 
+        #16dfe6 25%, 
+        #02aab0 51%, 
+        #11ce72 100%
+  );  
+  animation: AnimateBG 20s ease infinite;
+  -webkit-clip-path: polygon(0 15vh,100% 0,100% 80%,0 100%);
+  clip-path: polygon(0 12vh,100% 0,100% 80%,0 100%);
+}
+
+.skills-h1 {
+  color: white;
+}
+
+.pic-div {
+  padding-top: 2vh;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 2vh;
+}
+
+.project-link {
+  color: #10d6dd;
+  /* color: #00ff48; */
+  border: 1.3px solid #10d6dd;
+  /* border: 1.3px solid #00ff48; */
+}
+
+.project-link:hover {
+  color: white;
+  background-color: #10d6dd;
+  border: 1.3px solid white;
+}
+
+.bussin-bagels {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.me {
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        #15b5e1 0%, 
+        #16dfe6 25%, 
+        #02aab0 51%, 
+        #11ce72 100%
+  );  
+  animation: AnimateBG 20s ease infinite;;
+  padding: 1rem;
+  padding: 30vh;
+  -webkit-clip-path: polygon(0 15vh,100% 0,100% 80%,0 100%);
+  clip-path: polygon(0 15vh,100% 0,100% 80%,0 100%);
+  color: white;
+}
+
+.resume-dl {
+  color: #ffffff;
+  /* color: #00ff48; */
+  border: 1.3px solid #ffffff;
+  /* border: 1.3px solid #00ff48; */
+}
+
+.resume-dl:hover {
+  color: #10d6dd;
+  background-color: white;
+  border: 1.3px solid white;
 }

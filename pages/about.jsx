@@ -1,49 +1,43 @@
 // Import SSR caching image tag
 import Image from "next/image";
 import styles from '../styles/About.module.css'
+import 'animate.css';
+import Link from "next/link";
 
 function About() {
 
     return ( 
-        <div className="about">
-            <h1>Hi, I'm <span className="evan">Evan.</span></h1>
-            <h1>I'm a full stack developer.</h1>
-            <div className="about-links">
+        <div className="about" >
+            <h1 className="animate__animated animate__fadeInDown">Hi, I'm <span className="evan">Evan.</span></h1>
+            <h1 className="animate__animated animate__fadeInDown">I'm a full stack developer.</h1>
+            <div className="about-links animate__animated animate__fadeInLeft">
                 <a
-                    href="/documents/Evan-Karwowski-Resume.pdf"
-                    target="_blank"
+                    href="#skills"
                     alt="Evan Karwowski resume"
-                    rel="noopener noreferrer"
                     className="resume"
                   >
-                    Resume
+                    Skills
                   </a>
                 <a
-                    href="/documents/Evan-Karwowski-Resume.pdf"
-                    target="_blank"
+                    href="#projects"
                     alt="Evan Karwowski resume"
-                    rel="noopener noreferrer"
                     className="resume"
                   >
-                    Resume
+                    Projects
                   </a>
                 <a
-                    href="/documents/Evan-Karwowski-Resume.pdf"
-                    target="_blank"
+                    href="#about"
                     alt="Evan Karwowski resume"
-                    rel="noopener noreferrer"
                     className="resume"
                   >
-                    Resume
+                    About
                   </a>
                 <a
-                    href="/documents/Evan-Karwowski-Resume.pdf"
-                    target="_blank"
+                    href="#contact"
                     alt="Evan Karwowski resume"
-                    rel="noopener noreferrer"
                     className="resume"
                   >
-                    Resume
+                    Contact
                   </a>
             </div>
                  
