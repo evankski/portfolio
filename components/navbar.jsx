@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Navbar() {
   return (
     <nav>
-    <a href="/documents/Evan-Karwowski-Resume.pdf" target="_blank" rel="noreferrer">
+    <a href="/documents/EvanKarwowski-Resume.pdf" target="_blank" rel="noreferrer">
           <img src="https://i.imgur.com/oFZ5DSc.png" alt="Resume logo" width={'3.3%'}/>
         </a>  
 
