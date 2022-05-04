@@ -254,6 +254,14 @@ background-size: 300% 300%;
   padding: 0.6rem;
 }
 
+.message-sent {
+  color: #10d6dd;
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 @media only screen and (max-width: 600px) {
   .about {
     padding-left: 55vw;
