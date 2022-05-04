@@ -257,9 +257,18 @@ background-size: 300% 300%;
 .message-sent {
   color: #10d6dd;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.sent-gif {
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  margin: 0 auto;
+  width: 10%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -309,5 +318,14 @@ background-size: 300% 300%;
   }
   .container {
     padding-left: 40vw;
+  }
+
+  .sent-gif {
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 60vw;
+    width: 5%;
+    margin: 0;
+    text-align: center;
   }
 }

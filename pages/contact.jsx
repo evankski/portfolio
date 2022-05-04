@@ -30,7 +30,10 @@ export default function Contact() {
 
       const renderSendButton = () => {
         if (submitted === true) {
-          return <div><p className="message-sent">Message Sent!</p></div>;
+        //   return <div><p className="message-sent">Message Sent!</p></div>;
+            return <div className="sent-gif">
+                    <img src="https://i.pinimg.com/originals/2f/8b/78/2f8b78400df23ce23160c0e5f5cc9c6e.gif" alt="message sent" />
+                   </div>
         } else { return (<div>
             <div className='container'>
               <form className='main'>
@@ -47,7 +50,7 @@ export default function Contact() {
                   <label htmlFor="message">Message</label>
                   <input type="text" onChange={(e)=>{setMessage(e.target.value)}} name="message" className='inputField' />
                 </formGroup>
-                <input type="submit" onClick={(e)=>{handleSubmit(e)}} className={ submitted ? "submit" : ""}/>
+                <input type="submit" onClick={(e)=>{handleSubmit(e)}} className="submit"/>
               </form>
             </div>
           </div>)
