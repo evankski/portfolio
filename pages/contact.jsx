@@ -37,7 +37,7 @@ export default function Contact() {
           </formGroup>
           <formGroup className='inputGroup'>
             <label htmlFor="email">Email</label>
-            <input type="email" onChange={(e)=>{setEmail(e.target.value)}} name="email" className='inputField' />
+            <input type={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" className='inputField' />
           </formGroup>
           <formGroup className='inputGroup'>
             <label htmlFor="message">Message</label>
