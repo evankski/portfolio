@@ -5,8 +5,19 @@ import Navbar from '../components/navbar'
 import Projects from './projects'
 import Contact from './contact'
 import Me from './me'
+import FingerprintJS from '@fingerprintjs/fingerprintjs-pro'
 
 export default function Home() {
+
+  const fpPromise = FingerprintJS.load({
+    apiKey: 'EfUPUZmYUxlOIpsbhuI0'
+  })
+  
+  // Get the visitor identifier when you need it.
+  fpPromise
+    .then(fp => fp.get())
+    .then(result => console.log(result.visitorId))
+
   return (
     <div>
       <Head>

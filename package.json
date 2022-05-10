@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fingerprintjs/fingerprintjs-pro": "^3.6.2",
     "animate.css": "^4.1.1",
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
